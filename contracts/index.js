@@ -41,20 +41,20 @@ exports.INIT_ADDRESS =
 /**
  * The name of the network where these contracts are deployed.
  */
-exports.NETWORK = 'xdai';
+exports.NETWORK = 'localhost';
 /**
  * The id of the network where these contracts are deployed.
  */
-exports.NETWORK_ID = 100;
+exports.NETWORK_ID = 31337;
 /**
  * The block in which the DarkForest contract was initialized.
  */
-exports.START_BLOCK = 20713468;
+exports.START_BLOCK = 0;
 /**
  * The address for the DarkForest contract.
  */
-exports.CONTRACT_ADDRESS = '0x5da117b8aB8b739346F5EdC166789E5aFb1a7145';
+exports.CONTRACT_ADDRESS = '0x500cf53555c09948f4345594F9523E7B444cD67E';
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-exports.INIT_ADDRESS = '0x162564a30C73204A0b404D23A033bFBA377ADdc2';
+exports.INIT_ADDRESS = '0xc2EEd1AdAAe36B640f64c06FeF8Cd32F7473afAA';
