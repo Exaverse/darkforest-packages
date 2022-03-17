@@ -39,7 +39,7 @@ function cleanGasPrices(gasPrices: GasPrices): void {
     gasPrices.slow = DEFAULT_GAS_PRICES.slow;
   }
 
-  gasPrices.fast = Math.max(1, Math.min(MAX_AUTO_GAS_PRICE_GWEI, gasPrices.fast));
-  gasPrices.average = Math.max(1, Math.min(MAX_AUTO_GAS_PRICE_GWEI, gasPrices.average));
-  gasPrices.slow = Math.max(1, Math.min(MAX_AUTO_GAS_PRICE_GWEI, gasPrices.slow));
+  gasPrices.fast = Math.max(2, Math.min(MAX_AUTO_GAS_PRICE_GWEI, gasPrices.fast));
+  gasPrices.average = Math.max(2, Math.min(MAX_AUTO_GAS_PRICE_GWEI, gasPrices.average));
+  gasPrices.slow = Math.max(2, Math.min(MAX_AUTO_GAS_PRICE_GWEI, gasPrices.slow));
 }

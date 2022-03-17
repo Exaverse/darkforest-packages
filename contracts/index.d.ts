@@ -33,20 +33,20 @@
 /**
  * The name of the network where these contracts are deployed.
  */
-export declare const NETWORK = 'localhost';
+export declare const NETWORK = 'xdai';
 /**
  * The id of the network where these contracts are deployed.
  */
-export declare const NETWORK_ID = 31337;
+export declare const NETWORK_ID = 100;
 /**
  * The block in which the DarkForest contract was initialized.
  */
-export declare const START_BLOCK = 0;
+export declare const START_BLOCK = 21151307;
 /**
  * The address for the DarkForest contract.
  */
-export declare const CONTRACT_ADDRESS = '0x500cf53555c09948f4345594F9523E7B444cD67E';
+export declare const CONTRACT_ADDRESS = '0x4c10387685965A99Ac9b6DA24e580FD85559b3da';
 /**
  * The address for the initalizer contract. Useful for lobbies.
  */
-export declare const INIT_ADDRESS = '0xc2EEd1AdAAe36B640f64c06FeF8Cd32F7473afAA';
+export declare const INIT_ADDRESS = '0xe15FC19334e471bBD01CF21eBDA37ea1D476e166';
